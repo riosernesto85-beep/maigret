@@ -1,6 +1,6 @@
 # Maigret database
 
-The file was updated on 2026-09-07
+The file was updated on 2026-09-07. Maigret currently supports 4909 sites.
 
 ## Contents
 
@@ -12,7 +12,7 @@ The file was updated on 2026-09-07
   - [Top 20 profile URLs](#top-20-profile-urls)
   - [Sites by engine](#sites-by-engine)
   - [Top 20 tags](#top-20-tags)
-- [List of supported sites (search methods): total 4909](#list-of-supported-sites-search-methods-total-4909)
+- [List of supported sites (search methods)](#list-of-supported-sites-search-methods)
 
 ## Statistics
 
@@ -124,7 +124,7 @@ The file was updated on 2026-09-07
 
 
 
-## List of supported sites (search methods): total 4909
+## List of supported sites (search methods)
 
 Rank data fetched from Majestic Million by domains.
 
