@@ -1,4 +1,18 @@
+# Maigret database
+
 The file was updated on 2026-09-07
+
+## Contents
+
+- [Statistics](#statistics)
+  - [Coverage](#coverage)
+  - [Check strength](#check-strength)
+  - [Special cases](#special-cases)
+  - [Top 15 countries](#top-15-countries)
+  - [Top 20 profile URLs](#top-20-profile-urls)
+  - [Sites by engine](#sites-by-engine)
+  - [Top 20 tags](#top-20-tags)
+- [List of supported sites (search methods): total 4909](#list-of-supported-sites-search-methods-total-4909)
 
 ## Statistics
 
