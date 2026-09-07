@@ -1,3 +1,114 @@
+The file was updated on 2026-09-07
+
+## Statistics
+
+### Coverage
+
+- **Enabled sites:** 4216/4909 = 85.88%
+- **Check types:** message 2102 (49.86%), status_code 2037 (48.32%), response_url 77 (1.83%)
+- **Countries:** 77 tagged, 2592 sites (52.8%) have no country tag
+
+### Check strength
+
+- **Weak-signal checks:** 2408/4216 = 57.12% (status code checks, plus message checks missing a string)
+- **Status code checks:** 2037/4216 = 48.32% (existence inferred from the HTTP code alone)
+- **Message checks missing a string:** 371/4216 = 8.8% (presence or absence strings, not both)
+- **Message checks without presence markers:** 241/4216 = 5.72% (subset of the line above, absence strings are the only signal)
+
+### Special cases
+
+- **Sites with probing:** 1088
+- **Sites with activation:** OnlyFans, ProtonMail, Twitter, Vimeo, Weibo, WikimapiaSearch
+- **Sites behind bot protection:** 244 (tls_fingerprint 104, cf_js_challenge 57, ip_reputation 45, custom_bot_protection 23, cf_firewall 15)
+- **Sites with unreadable fields:** 26 (errorUrl x22, caseSentitive x2, mirrors x2)
+
+### Top 15 countries
+
+- (1367)	`ru`
+- (123)	`ua`
+- (114)	`us`
+- (87)	`de`
+- (66)	`pl`
+- (63)	`gb`
+- (53)	`fr`
+- (41)	`cn`
+- (35)	`jp`
+- (34)	`tr`
+- (33)	`ca`
+- (32)	`pk`
+- (25)	`br`
+- (23)	`nl`
+- (20)	`vn`
+
+
+### Top 20 profile URLs
+
+- (884)	`{urlMain}/u/{username} (DiscourseJson)`
+- (709)	`{urlMain}/index/8-0-{username} (uCoz)`
+- (355)	`/{username}`
+- (319)	`{urlMain}{urlSubpath}/members/?username={username} (XenForo)`
+- (249)	`/user/{username}`
+- (190)	`/u/{username}`
+- (182)	`/profile/{username}`
+- (180)	`{urlMain}{urlSubpath}/User:{username} (MediaWiki)`
+- (143)	`/@{username}`
+- (134)	`/users/{username}`
+- (131)	`{urlMain}{urlSubpath}/member.php?username={username} (vBulletin)`
+- (126)	`{urlMain}{urlSubpath}/search.php?author={username} (phpBB/Search)`
+- (84)	`/wiki/User:{username}`
+- (84)	`/a/{username}`
+- (48)	`SUBDOMAIN`
+- (44)	`/members/?username={username}`
+- (43)	`{urlMain}/u/{username}/summary (Discourse)`
+- (40)	`/User:{username}`
+- (32)	`/author/{username}`
+- (31)	`/members/{username}`
+
+
+### Sites by engine
+
+- `DiscourseJson`: 884/884 (100.0%)
+- `uCoz`: 633/709 (89.3%)
+- `XenForo`: 269/319 (84.3%)
+- `MediaWiki`: 180/180 (100.0%)
+- `vBulletin`: 38/131 (29.0%)
+- `phpBB/Search`: 117/126 (92.9%)
+- `Discourse`: 35/43 (81.4%)
+- `phpBB`: 23/29 (79.3%)
+- `Flarum`: 26/26 (100.0%)
+- `engine404`: 18/23 (78.3%)
+- `op.gg`: 17/17 (100.0%)
+- `Wordpress/Author`: 4/8 (50.0%)
+- `Vanilla`: 8/8 (100.0%)
+- `engineRedirect`: 3/4 (75.0%)
+- `phpBB2/Search`: 2/3 (66.7%)
+- `engine404get`: 2/2 (100.0%)
+
+
+### Top 20 tags
+
+- (2367)	`forum`
+- (1382)	`discussion`
+- (643)	`social`
+- (436)	`gaming`
+- (417)	`tech`
+- (327)	`wiki`
+- (256)	`coding`
+- (225)	`education`
+- (219)	`business`
+- (199)	`hobby`
+- (137)	`apps`
+- (134)	`video`
+- (133)	`music`
+- (129)	`blog`
+- (115)	`streaming`
+- (115)	`news`
+- (106)	`art`
+- (92)	`sharing`
+- (92)	`finance`
+- (88)	`auto`
+
+
 
 ## List of supported sites (search methods): total 4909
 
@@ -4912,108 +5023,3 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://vaultwarden.discourse.group) [vaultwarden.discourse.group (https://vaultwarden.discourse.group)](https://vaultwarden.discourse.group)*: top 100M, discussion, forum*
 1. ![](https://www.google.com/s2/favicons?domain=https://vetasocial.k.vu) [vetasocial.k.vu (https://vetasocial.k.vu)](https://vetasocial.k.vu)*: top 100M, discussion, forum*
 1. ![](https://www.google.com/s2/favicons?domain=https://yellow.forum) [yellow.forum (https://yellow.forum)](https://yellow.forum)*: top 100M, discussion, forum*
-
-The list was updated at (2026-09-07)
-## Statistics
-
-Enabled/total sites: 4216/4909 = 85.88%
-
-Incomplete message checks: 371/4216 = 8.8% (false positive risks)
-
-Status code checks: 2037/4216 = 48.32% (false positive risks)
-
-False positive risk (total): 57.12%
-
-Message checks without presence markers: 241/4216 = 5.72% (absence strings are the only signal)
-
-Sites with probing: 1088
-
-Sites with activation: OnlyFans, ProtonMail, Twitter, Vimeo, Weibo, WikimapiaSearch
-
-Sites behind bot protection: 244 (tls_fingerprint 104, cf_js_challenge 57, ip_reputation 45, custom_bot_protection 23, cf_firewall 15)
-
-Sites with unreadable fields: 26 (errorUrl x22, caseSentitive x2, mirrors x2)
-
-Countries: 77 tagged, 2592 sites (52.8%) have no country tag
-
-Top 15 countries:
-- (1367)	`ru`
-- (123)	`ua`
-- (114)	`us`
-- (87)	`de`
-- (66)	`pl`
-- (63)	`gb`
-- (53)	`fr`
-- (41)	`cn`
-- (35)	`jp`
-- (34)	`tr`
-- (33)	`ca`
-- (32)	`pk`
-- (25)	`br`
-- (23)	`nl`
-- (20)	`vn`
-
-
-Top 20 profile URLs:
-- (884)	`{urlMain}/u/{username} (DiscourseJson)`
-- (709)	`{urlMain}/index/8-0-{username} (uCoz)`
-- (355)	`/{username}`
-- (319)	`{urlMain}{urlSubpath}/members/?username={username} (XenForo)`
-- (249)	`/user/{username}`
-- (190)	`/u/{username}`
-- (182)	`/profile/{username}`
-- (180)	`{urlMain}{urlSubpath}/User:{username} (MediaWiki)`
-- (143)	`/@{username}`
-- (134)	`/users/{username}`
-- (131)	`{urlMain}{urlSubpath}/member.php?username={username} (vBulletin)`
-- (126)	`{urlMain}{urlSubpath}/search.php?author={username} (phpBB/Search)`
-- (84)	`/wiki/User:{username}`
-- (84)	`/a/{username}`
-- (48)	`SUBDOMAIN`
-- (44)	`/members/?username={username}`
-- (43)	`{urlMain}/u/{username}/summary (Discourse)`
-- (40)	`/User:{username}`
-- (32)	`/author/{username}`
-- (31)	`/members/{username}`
-
-
-Sites by engine:
-- `DiscourseJson`: 884/884 (100.0%)
-- `uCoz`: 633/709 (89.3%)
-- `XenForo`: 269/319 (84.3%)
-- `MediaWiki`: 180/180 (100.0%)
-- `vBulletin`: 38/131 (29.0%)
-- `phpBB/Search`: 117/126 (92.9%)
-- `Discourse`: 35/43 (81.4%)
-- `phpBB`: 23/29 (79.3%)
-- `Flarum`: 26/26 (100.0%)
-- `engine404`: 18/23 (78.3%)
-- `op.gg`: 17/17 (100.0%)
-- `Wordpress/Author`: 4/8 (50.0%)
-- `Vanilla`: 8/8 (100.0%)
-- `engineRedirect`: 3/4 (75.0%)
-- `phpBB2/Search`: 2/3 (66.7%)
-- `engine404get`: 2/2 (100.0%)
-
-
-Top 20 tags:
-- (2367)	`forum`
-- (1382)	`discussion`
-- (643)	`social`
-- (436)	`gaming`
-- (417)	`tech`
-- (327)	`wiki`
-- (256)	`coding`
-- (225)	`education`
-- (219)	`business`
-- (199)	`hobby`
-- (137)	`apps`
-- (134)	`video`
-- (133)	`music`
-- (129)	`blog`
-- (115)	`streaming`
-- (115)	`news`
-- (106)	`art`
-- (92)	`sharing`
-- (92)	`finance`
-- (88)	`auto`
